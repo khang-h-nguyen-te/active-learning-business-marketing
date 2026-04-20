@@ -35,7 +35,7 @@ export default function Home() {
             {[
               { title: 'Active Learning Techniques', desc: 'Feynman, spaced repetition, retrieval practice — the methods that actually move information from short-term to long-term memory.' },
               { title: 'Student Productivity', desc: 'Study systems, focus workflows, and habit stacks built for university students who want results, not just hours logged.' },
-              { title: 'AI in Education', desc: 'Which AI tools are worth using, how to use them as a personal tutor, and what's changing in how we learn.' },
+              { title: 'AI in Education', desc: "Which AI tools are worth using, how to use them as a personal tutor, and what's changing in how we learn." },
             ].map(item => (
               <div key={item.title} style={{ padding: '1.75rem', borderRadius: 'var(--radius)', border: '1px solid var(--color-border)', background: 'var(--color-surface)' }}>
                 <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 'var(--text-h3)', fontWeight: 600, marginBottom: '0.75rem', color: 'var(--color-text-primary)' }}>{item.title}</h3>
