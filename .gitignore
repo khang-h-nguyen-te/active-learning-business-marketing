@@ -1,0 +1,10 @@
+.env
+.env.local
+.env.*.local
+node_modules/
+.next/
+working_files/
+*.psd
+*.ai
+*.mov
+*.mp4
