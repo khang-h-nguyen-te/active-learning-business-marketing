@@ -24,6 +24,21 @@
 Mon-Fri 7am: standup reminder → 9am: compile → 5pm: EOD reminder → Fri 4pm: RAG report
 All times Bangkok (ICT, UTC+7)
 
+## Business
+**Active Learning Business** — "Stop passive learning — use AI to actually retain what you study."
+Content + platform company. Blog now, AI study assistant platform later.
+Primary audience: university students. Market: Vietnam-first, English-first.
+Owner: Khang (CEO), Bangkok (ICT, UTC+7).
+
+## Content pillars
+1. Active Learning Techniques (Feynman, spaced repetition, retrieval practice)
+2. Student Productivity (focus, workflows, habit stacks)
+3. AI in Education (tools, trends, what's changing)
+
+## Publishing
+2x/week (Tuesday + Friday). English first. Newsletter at post #8.
+Calendar: content/content-calendar/calendar.md
+
 ## Current status
-Bootstrap in progress — P2 complete. Website scaffolded, core team installed.
-Next: attach p3-agents.md to begin business discovery and agent customisation.
+P3 complete. All resource files generated, agents personalised, website updated.
+Next: P4 — activate PM schedules (standup reminders + RAG reports).

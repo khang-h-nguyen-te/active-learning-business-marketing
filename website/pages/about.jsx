@@ -7,25 +7,32 @@ export default function About() {
     <>
       <Head>
         <title>About — Active Learning Business</title>
-        <meta name="description" content="Learn about our mission to make active learning accessible to everyone." />
+        <meta name="description" content="Active Learning Business is a content and platform company at the intersection of learning science and AI — founded by Khang, CEO." />
+        <meta property="og:title" content="About — Active Learning Business" />
+        <meta property="og:description" content="At the intersection of learning science and AI." />
       </Head>
       <Nav />
-      <main style={{ maxWidth: '720px', margin: '4rem auto', padding: '0 2rem' }}>
-        <h1 style={{ fontFamily: 'var(--font-heading)', fontSize: '2rem', marginBottom: '1.5rem' }}>
-          {/* P3: update with real about headline */}
-          About Us
+      <main style={{ maxWidth: '680px', margin: '5rem auto', padding: '0 2rem' }}>
+        <h1 style={{ fontFamily: 'var(--font-heading)', fontSize: 'var(--text-h1)', fontWeight: 700, marginBottom: '2rem', color: 'var(--color-text-primary)', lineHeight: 1.2 }}>
+          Why passive learning is broken — and what we're doing about it.
         </h1>
-        <p style={{ marginBottom: '1rem', color: '#475569' }}>
-          {/* P3: update with real about content from discovery interview */}
-          We are passionate about transforming how people learn. Active learning is at the core of everything we do — from the programs we design to the resources we create.
+        <p style={{ marginBottom: '1.5rem', color: 'var(--color-text-secondary)', lineHeight: 1.7, fontSize: 'var(--text-body)' }}>
+          Most students spend hours studying and retain almost nothing. They re-read chapters, highlight everything, and feel productive — but when the exam arrives, the knowledge isn't there. That's not a discipline problem. It's a method problem.
         </p>
-        <p style={{ marginBottom: '1rem', color: '#475569' }}>
-          Our approach is grounded in research and refined through practice. We work with educators, coaches, and organisations to build learning experiences that engage, challenge, and stick.
+        <p style={{ marginBottom: '1.5rem', color: 'var(--color-text-secondary)', lineHeight: 1.7, fontSize: 'var(--text-body)' }}>
+          Active Learning Business exists to fix that. We teach the science of learning — Feynman technique, spaced repetition, retrieval practice — and show you exactly how to use AI as a tool to apply these methods, not just consume more content passively.
         </p>
-        <p style={{ color: '#475569' }}>
-          {/* P3: personalise with owner name and story */}
-          Founded with a simple belief: that everyone deserves access to learning methods that actually work.
+        <p style={{ marginBottom: '1.5rem', color: 'var(--color-text-secondary)', lineHeight: 1.7, fontSize: 'var(--text-body)' }}>
+          Right now, that's a blog. Two posts a week, built for university students but useful for anyone who needs to learn faster and retain more. Vietnamese content is coming — the ideas work in any language.
         </p>
+        <p style={{ color: 'var(--color-text-secondary)', lineHeight: 1.7, fontSize: 'var(--text-body)' }}>
+          Later: an AI study assistant platform that puts these methods into practice for you, every session.
+        </p>
+        <div style={{ marginTop: '3rem', paddingTop: '2rem', borderTop: '1px solid var(--color-border)' }}>
+          <p style={{ color: 'var(--color-text-secondary)', fontSize: 'var(--text-small)' }}>
+            Founded by <strong style={{ color: 'var(--color-text-primary)' }}>Khang</strong> — Bangkok, Thailand.
+          </p>
+        </div>
       </main>
       <Footer />
     </>
